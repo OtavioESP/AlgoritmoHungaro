@@ -20,7 +20,12 @@ A partir dessas designações de pessoas a tarefas, é possível encontrar o cus
 É possível entender rapidamente a utilidade dessa ferramenta se imaginarmos, por exemplo: temos 3 empregados, que podem pode realizar 3 trabalhos distintos, e naturalmente cada empregado realiza esse trabalho em seu próprio tempo que pode diferir dos demais (conforme aptidão para a tarefa). Quando a quantidade de variáveis na situação cresce, calcular as atribuições manualmente se torna muito complexo e é aí que se destaca o algoritmo Húngaro, para solucionar o problema de modo eficiente.
 
 ## Modelagem matemática
-(Print)
+Problema a modelar: Uma empresa possui tarefas a executar em 19 cidades diferentes espalhadas pelo mundo. Essa mesma empresa possui 20 funcionários aptos a viajar para desempenhar as atividades mencionadas. De que modo é necessário alocar esses funcionários para que todos possuam uma designação e custem o mínimo possível à empresa nas viagens até as cidades de interesse?
+![teste](https://github.com/OtavioESP/AlgoritmoHungaro/assets/78800453/3ad90602-ca37-415a-94eb-ef5c156770c4)
+![teste2](https://github.com/OtavioESP/AlgoritmoHungaro/assets/78800453/c0020f00-70db-4d05-a5e5-2a095805e7a6)
+![teste3](https://github.com/OtavioESP/AlgoritmoHungaro/assets/78800453/a5c42e61-35c9-495e-9dd1-3a29208f5d6a)
+
+(Fonte demonstrando o passo passo em anexo: [Modelagem Matemática (19x20).xlsx](https://github.com/OtavioESP/AlgoritmoHungaro/files/13468583/Modelagem.Matematica.19x20.xlsx))
 
 ## Exemplo de solução com o algoritmo implementado
 ### MATRIZ ORIGINAL
