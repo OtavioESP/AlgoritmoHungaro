@@ -49,7 +49,7 @@ Problema a modelar: Uma empresa possui tarefas a executar em 19 cidades diferent
 626 742 613 597 732 698 878 678 894 985 588 693 797 999 648 854 620 561 656 838 <br>
 826 547 853 577 723 748 790 701 559 662 788 708 853 893 929 888 678 939 972 819 <br>
 
-### SOLUÇÃO DO ALGORITMO HÚNGARO
+### SOLUÇÃO DO ALGORITMO HÚNGARO e INTERPRETAÇÃO DO RESULTADO
 Pares ordenados (Linha, Coluna) de elementos integrantes da solução ótima, referenciando matriz original de custo:  <br>
 Linha 1, Coluna 7: 529 <br>
 Linha 2, Coluna 8: 559 <br>
@@ -71,4 +71,7 @@ Linha 17, Coluna 2: 552 <br>
 Linha 18, Coluna 1: 626 <br>
 Linha 19, Coluna 20: 819 <br>
 Linha 20, Coluna 0: 0 (Dummy) <br>
-Custo mínimo: 11085 <br>
+<b>Custo mínimo: 11085</b> <br>
+
+#### Comentário sobre os resultados:
+No contexto do algoritmo húngaro, o valor de cada um dos elementos na matriz cujo par ordenado foi selecionado ao longo da resolução do problema produzem quando somados o custo mínimo para a situação dada no problema. A tarefa Dummy foi necessária acrescentar visto que o número de Pessoas x Tarefas diferia, no início do problema, o que ocasionava na matriz tendo formato retangular porém <b>não quadrado</b> o que, por consequência, exigiu o ajuste para seguir com o método de modo coerente. Os valores encontrados pelo algoritmo, relativamente aos seus pares, estão em linha com a eficiência esperada por essa abordagem do algoritmo Húngaro. Além disso, foi possível demonstrar que para um nome expressivo de variáveis em um mesmo problema, a solução computacional se mostra viável, quando a operação manual seria precária e frágil na execução.
